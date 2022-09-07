@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Great+Vibes&display=swap"
+        rel="stylesheet">
+    <!-- LINK TO STYLE SHEET -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- LINK TO FAVICON -->
+    <link type="image/png" href="./assets/cutlery-favicon.png" rel="icon">
+    <!-- FONTAWESOME ICONS-->
+    <script src="https://kit.fontawesome.com/f8b144ae0b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="wrapper">
+            <div class="header-container">
+                <a class="logo" href="index.html">Tasty</a>
+                <nav>
+                    <ul>
+                        <li class="header-menu"><a href="index.html">Home</a></li>
+                        <li class="header-menu"><a href="#about">About</a></li>
+                        <li class="header-menu"><a href="#blog">Blog</a></li>
+                        <li class="header-menu"><a href="#contact">Contact</a></li>
+                    </ul>
+                    <!-- HAMBURGER MENU -->
+                    <div class="hamburger">
+                        <a href="./header-menu.html">
+                            <!-- N.B.:^I added a separate html page (which is definitely not the most efficient method) only because from my research, to add a responsive/functional hamburger menu with ONLY CSS (without JS) seemed like unnecessary/extensive lines of code that could be easily done by simple JS. Since I have yet to learn JS, I have decided to not try to merely copy/paste code I don't understand, and instead wait until I have the time to properly learn it! -->
+                            <i class="fa-solid fa-bars fa-2xl"></i>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="title">
+                <h1><span>Welcome To </span>Tasty...</h1>
+            </div>
+        </div>
+
+        <div class="socials-nav">
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fa-brands fa-facebook-f fa-xs"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fa-brands fa-instagram fa-xs"></i>
+                    </a>
+                </li>
+                <li><a href="https://www.linkedin.com" target="_blank">
+                        <i class="fa-brands fa-linkedin-in fa-xs"></i>
+                    </a>
+                </li>
+                <li><a href="https://www.twitter.com" target="_blank">
+                        <i class="fa-brands fa-twitter fa-xs"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="about" id="about">
+            <div class="wrapper">
+                <h2>About Tasty</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipscing elit. Nulla pulvinar tortor a elementum eleifend.
+                    Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus.
+                    Vestibulum vitae tincidunt sem, a blandit sem. Quisque interdum orci.</p>
+
+                <div class="button-box">
+                    <a href="#more">Find out more</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-nav">
+            <div class="wrapper">
+                <ul>
+                    <li class="menu">
+                        <a href="#recipes">
+                            <i class="fa-solid fa-utensils fa-xl"></i>
+                            <h4>Recipes</h4>
+                        </a>
+                    </li>
+                    <li class="menu">
+                        <a href="#cooking-tips">
+                            <i class="fa-solid fa-book-open fa-xl"></i>
+                            <h4>Cooking Tips</h4>
+                        </a>
+                    </li>
+                    <li class="menu"><a href="#contact">
+                            <i class="fa-solid fa-envelope fa-xl"></i>
+                            <h4>Contact</h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="wrapper">
+                <ul class="gallery-container">
+                    <li><img src="./assets/asset-2.jpg" alt="cut lemon and fresh blueberries"></li>
+                    <li><img src="./assets/asset-3.jpg" alt="Smoked Mackerel Keto Salad with Guacamole"></li>
+                    <li class="gallimg-3"><img src="./assets/asset-4.jpg" alt="cream of corn soup with chicken"></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="articles">
+            <div class="cooking-tips">
+                <div class="article-container">
+                    <h3>Cooking Tips</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore deserunt, suscipit adipisci
+                        minima
+                        necessitatibus officia minus consectetur non ex maiores.</p>
+                    <div class="button-box">
+                        <a href="#cooking-tips">Read More</a>
+                    </div>
+                </div>
+
+                <div class="image-container">
+                    <img src="./assets/asset-5.jpg"
+                        alt="various cut citrus fruits scattered on a plate and table, with a Samsung tablet showing cut citrus fruits, and two fruit knives">
+                </div>
+            </div>
+
+            <div class="popular-recipes">
+                <div class="article-container">
+                    <h3>Popular Recipes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore deserunt, suscipit adipisci
+                        minima
+                        necessitatibus
+                        officia minus consectetur non ex maiores.</p>
+                    <div class="button-box">
+                        <a href="#recipes">Read More</a>
+                    </div>
+                </div>
+
+                <div class="image-container">
+                    <img src="./assets/asset-6.jpg"
+                        alt="recipe displayed on a white iPad on an iPad stand with various cooking utensils and measuring cups on the side and a bowl of limes in the background">
+                </div>
+            </div>
+
+            <!-- May need to do two separate containers for top and bottom stuff??  -->
+        </section>
+
+        <section class="about-cook">
+            <div class="wrapper">
+                <div class="cook-image-container">
+                    <img src="./assets/asset-7.jpg"
+                        alt="woman with septum piercing with face floating on water surrounded by sliced citrus fruits">
+                </div>
+                <div class="cook-text-container">
+                    <h2>Meet the Cook</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit suscipit molestiae quo quis eius
+                        nostrum tempore doloribus blanditiis cupiditate incidunt aliquam earum voluptates iure
+                        dignissimos, nisi ut, culpa asperiores ex, unde numquam soluta consequuntur nobis omnis vero.
+                        Reprehenderit quis totam perferendis voluptatem! Laudantium deleniti, quo veniam aspernatur,
+                        quod velit, delectus dolore in aliquam odit hic iste ducimus fugiat accusamus ut? Reprehenderit
+                        perferendis hic, laudantium quidem possimus harum esse corporis ad, ut cumque aspernatur, aut
+                        porro eum? Quisquam, at delectus sunt quod odio excepturi doloremque culpa explicabo ipsum quo
+                        voluptatum veritatis?</p>
+                    <div class="button-box">
+                        <a href="#meet-the-cook">Find out more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="top-footer">
+            <div class="wrapper">
+                <div class="form">
+                    <form action="#" method="#" class="myForm" name="myForm">
+
+                        <div class="menu">
+                            <h4>Stay Updated</h4>
+                        </div>
+                        <label for="email">Subscribe to our newsletter to stay updated.</label>
+                        <br>
+                        <input type="email" id="email" name="email" required placeholder="email address">
+
+                        <button type="subscribe" class="button-box">Subscribe</button>
+                    </form>
+                </div>
+                <nav class="footer-nav-1">
+                    <ul id="contact">
+                        <li class="menu">
+                            <h4>Contact</h4>
+                        </li>
+                        <li class="sub small"> <a href="mailto:info@email.com">info@email.com</a>, 123 - 456 - 7890
+                        </li>
+                        <li class="small">123 some road. Toronto, ON
+                        </li>
+
+                        <li class="sub large"> <a href="mailto:info@email.com">info@email.com</a>
+                            <br> 123 - 456 - 7890
+                            <br>123 some road.
+                            <br>Toronto, ON
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li class="menu">
+                            <h4>Pages</h4>
+                        </li>
+                        <li class="sub"><a href="index.html">HOME</a></li> <span> | </span>
+                        <li class="sub"><a href="#about">ABOUT</a></li> <span> | </span>
+                        <li class="sub"><a href="#blog">BLOG</a></li> <span> | </span>
+                        <li class="sub"><a href="#contact">CONTACT</a></li>
+                    </ul>
+
+                    <ul class="recent-posts">
+                        <li class="menu">
+                            <h4>Recent Posts</h4>
+                        </li>
+                        <li class="sub"> <a href="#lemon-cake" ">Lemon Pound Cake</a></li>
+                            <li class=" sub"> <a href=" #sp-sq">Spaghetti Squash</a></li>
+                        <li class="sub"> <a href="#sugar-free">Sugar Free</a></li>
+                        <li class="sub"> <a href="#lemonade">Lemonade</a></li>
+                    </ul>
+            </div>
+        </div>
+
+
+        <div class="bottom-footer">
+            <p>Copyright &copy; 2018 HackerYou</p>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
