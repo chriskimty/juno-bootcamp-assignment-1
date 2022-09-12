@@ -174,7 +174,8 @@ header nav ul {
 /* Section: MAIN NAV */
 
 .main-nav {
-    background-color: #232323;
+    background-color: #e2093f;
+     /* ^made changes to branch ONLY for production deploys on Netlify lesson */
     padding: 30px;
 }
 
